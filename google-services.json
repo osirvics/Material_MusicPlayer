@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "766568577253",
+    "firebase_url": "https://music-player-36de8.firebaseio.com",
+    "project_id": "music-player-36de8",
+    "storage_bucket": "music-player-36de8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766568577253:android:7abc1c0d33b09795",
+        "android_client_info": {
+          "package_name": "com.audio.effiong.musicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766568577253-bed12jmu8mffsg5l4tefosenoi0k1l5l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.audio.effiong.musicplayer",
+            "certificate_hash": "C60EB177351AC3C03602CAB5D9BAE8F8B1D053CA"
+          }
+        },
+        {
+          "client_id": "766568577253-e6p0eduuie39o7v39t7pki8ll33bnvkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5GRlsKtzNNNTFfh7JvjnW355PK3meWyI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766568577253-e6p0eduuie39o7v39t7pki8ll33bnvkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

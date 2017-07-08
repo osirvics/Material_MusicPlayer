@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/popup_song_add_to_playlist"
+        android:title="@string/add_to_playlist"
+        app:showAsAction="ifRoom"/>
+    <group
+        android:id="@+id/user_playlist_group"
+        android:visible="true">
+        <item
+            android:id="@+id/popup_remove"
+            android:title="@string/remove_item"
+            app:showAsAction="ifRoom" />
+    </group>
+    <item
+        android:id="@+id/popup_song_share"
+        android:title="@string/share_song"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/popup_song_details"
+        android:title="@string/song_details"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/popup_set_as_ringtone"
+        android:title="@string/set_as_ringtone"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/popup_delete_music"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom" />
+
+    <!--<item-->
+        <!--android:id="@+id/popup_song_open_album"-->
+        <!--android:title="@string/open_album"-->
+        <!--app:showAsAction="ifRoom" />-->
+    <!--<item-->
+        <!--android:id="@+id/popup_song_open_artist"-->
+        <!--android:title="@string/open_artist"-->
+        <!--app:showAsAction="ifRoom" />-->
+
+    <!--<item-->
+    <!--android:id="@+id/popup_song_set_as_ringtone"-->
+    <!--android:title="@string/set_as_ringtone"-->
+    <!--app:showAsAction="ifRoom" />-->
+    <!--<item-->
+        <!--android:id="@+id/popup_song_delete"-->
+        <!--android:title="@string/delete_from_device"-->
+        <!--app:showAsAction="ifRoom" />-->
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+        ~ Copyright 2013 Philip Schiffer
+        ~
+        ~    Licensed under the Apache License, Version 2.0 (the "License");
+        ~    you may not use this file except in compliance with the License.
+        ~    You may obtain a copy of the License at
+        ~
+        ~        http://www.apache.org/licenses/LICENSE-2.0
+        ~
+        ~    Unless required by applicable law or agreed to in writing, software
+        ~    distributed under the License is distributed on an "AS IS" BASIS,
+        ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        ~    See the License for the specific language governing permissions and
+        ~    limitations under the License.
+        -->
+<notices>
+    <notice>
+        <name>Android Open Source Project</name>
+        <url>https://developer.android.com/topic/libraries/support-library/revisions.html</url>
+        <copyright>Copyright (C) 2016 The Android Open Source Project</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Material Dialogs</name>
+        <url>https://github.com/afollestad/material-dialogs</url>
+        <copyright>Copyright (c) 2014-2016 Aidan Michael Follestad</copyright>
+        <license>MIT License</license>
+    </notice>
+    <notice>
+        <name>Android Sliding Up Panel</name>
+        <url>https://github.com/umano/AndroidSlidingUpPanel</url>
+        <copyright>"</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Android Support Libraries</name>
+        <url>http://developer.android.com/topic/libraries/support-library/index.html</url>
+        <copyright>Copyright (C) 2016 The Android Open Source Project</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+    <notice>
+        <name>Glide</name>
+        <url>http://github.com/bumptech/glide/</url>
+    </notice>
+    <notice>
+        <name>RecyclerView-FastScroll</name>
+        <url>https://github.com/timusus/RecyclerView-FastScroll</url>
+        <copyright> Copyright (C) 2016 Tim Malseed</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+
+    <notice>
+        <name>MaterialProgressBar</name>
+        <url>https://github.com/DreaminginCodeZH/MaterialProgressBar</url>
+        <copyright> Copyright 2015 Zhang Hai</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+
+    <notice>
+        <name>DMPlayer</name>
+        <url>https://github.com/dibakarece/DMPlayer</url>
+        <copyright> Copyright 2015 dibakar.ece@gmail.com Dibakar Mistry</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>CircleImageView</name>
+        <url>https://github.com/hdodenhof/CircleImageView</url>
+        <copyright> Copyright 2014 - 2016 Henning Dodenhof</copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+    <notice>
+        <name>LicensesDialog</name>
+        <url>http://psdev.de</url>
+        <copyright>Copyright (C) 2013 Philip Schiffer </copyright>
+        <license>Apache Software License 2.0</license>
+    </notice>
+
+</notices>

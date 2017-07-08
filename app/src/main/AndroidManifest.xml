@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.audio.effiong.musicplayer">
+
+    <!--<compatible-screens>-->
+        <!--&lt;!&ndash; all small size screens &ndash;&gt;-->
+        <!--<screen android:screenSize="small" android:screenDensity="ldpi" />-->
+        <!--<screen android:screenSize="small" android:screenDensity="mdpi" />-->
+        <!--<screen android:screenSize="small" android:screenDensity="hdpi" />-->
+        <!--<screen android:screenSize="small" android:screenDensity="xhdpi" />-->
+        <!--<screen android:screenSize="small" android:screenDensity="480" />-->
+        <!--<screen android:screenSize="small" android:screenDensity="640" />-->
+
+        <!--&lt;!&ndash; all normal size screens &ndash;&gt;-->
+        <!--<screen android:screenSize="normal" android:screenDensity="ldpi" />-->
+        <!--<screen android:screenSize="normal" android:screenDensity="mdpi" />-->
+        <!--<screen android:screenSize="normal" android:screenDensity="hdpi" />-->
+        <!--<screen android:screenSize="normal" android:screenDensity="xhdpi" />-->
+        <!--<screen android:screenSize="normal" android:screenDensity="420" />-->
+        <!--<screen android:screenSize="normal" android:screenDensity="480" />-->
+        <!--<screen android:screenSize="normal" android:screenDensity="560" />-->
+        <!--<screen android:screenSize="normal" android:screenDensity="640" />-->
+    <!--</compatible-screens>-->
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".utility.MusicActivity"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.FullScreen.Light">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/title_mainactivity_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing">
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".services.MusicService"
+
+             />
+
+        <activity
+            android:name=".activities.AlbumDetailsActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen.Light"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="ACTION_CHANGE_PLAY" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.audio.effiong.musicplayer.activities.MainActivity" />
+        </activity>
+        />
+        <activity
+            android:name=".activities.ArtistDetailsActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen.Light"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activities.SearchActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen.Light"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.audio.effiong.musicplayer.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.FavouriteActivity"
+            android:label="@string/title_activity_favourite"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen.Light"
+            android:windowSoftInputMode="adjustNothing">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.audio.effiong.musicplayer.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.PlaylistDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen.Light"
+            android:windowSoftInputMode="adjustNothing">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.audio.effiong.musicplayer.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activities.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.audio.effiong.musicplayer.activities.MainActivity" />
+        </activity>
+
+        <receiver android:name=".recievers.MusicIntentReceiver">
+            <intent-filter>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".recievers.RemoteControlReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activities.FolderActivity"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen.Light">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.audio.effiong.musicplayer.activities.MainActivity" />
+        </activity>
+        <!--<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>-->
+    </application>
+
+</manifest>

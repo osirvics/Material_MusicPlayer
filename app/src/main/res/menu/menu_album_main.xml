@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <!--<item-->
+        <!--android:id="@+id/menu_sort_by"-->
+        <!--android:icon="@drawable/ic_action_ic_action_sort_by_size1"-->
+        <!--app:showAsAction="always"-->
+        <!--android:orderInCategory="2"-->
+        <!--android:title="@string/menu_sort_by">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/menu_sort_by_title"-->
+                <!--android:title="@string/sort_order_entry_title"/>-->
+            <!--<item-->
+                <!--android:id="@+id/menu_sort_by_artist"-->
+                <!--android:title="@string/sort_order_entry_artist"/>-->
+            <!--<item-->
+                <!--android:id="@+id/menu_sort_by_date"-->
+                <!--android:title="@string/sort_order_entry_date_added"/>-->
+
+            <!--<item-->
+                <!--android:id="@+id/menu_sort_by_duration"-->
+                <!--android:title="@string/sort_order_entry_duration"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
+</menu>

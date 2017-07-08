@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_sort_by"
+        android:icon="@drawable/ic_action_ic_action_sort_by_size1"
+        app:showAsAction="never"
+        android:orderInCategory="200"
+        android:title="@string/menu_sort_by">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/menu_sort_by_title"
+                android:title="@string/sort_order_entry_title"/>
+            <item
+                android:id="@+id/menu_sort_by_artist"
+                android:title="@string/sort_order_entry_artist"/>
+            <item
+                android:id="@+id/menu_sort_by_date"
+                android:title="@string/sort_order_entry_date_added"/>
+
+            <item
+                android:id="@+id/menu_sort_by_duration"
+                android:title="@string/sort_order_entry_duration"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

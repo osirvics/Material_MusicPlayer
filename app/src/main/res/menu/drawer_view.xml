@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/topGroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_library"
+            android:checked="true"
+            android:icon="@drawable/ic_library_music"
+            android:title="@string/library" />
+
+        <item
+            android:id="@+id/fav"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/my_favorite" />
+        <item
+            android:id="@+id/folder"
+            android:icon="@drawable/ic_folder_white_24dp"
+            android:title="@string/my_folder" />
+
+    </group>
+
+    <group
+        android:id="@+id/bottomGroup"
+        android:tag="tab_indicator_accent_color"
+        android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_settings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_settings"
+            />
+
+        <item
+            android:icon="@drawable/ic_info"
+            android:id="@+id/nav_about"
+            android:title="@string/about" />
+        <item
+            android:icon="@drawable/ic_content_send"
+            android:id="@+id/nav_help"
+            android:title="@string/help_and_feedback" />
+    </group>
+
+</menu>
+
+
+    <!--android:checkable="false"-->
+

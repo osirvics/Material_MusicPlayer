@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals name="number_of_playlist">
+        <item quantity="one">@string/number_song_add_playlist</item>
+        <item quantity="other">@string/number_songs_add_playlist</item>
+    </plurals>
+
+
+    <plurals name="playlist_cab_removed">
+        <item quantity="one">@string/number_song_removed</item>
+        <item quantity="other">@string/number_songs_removed</item>
+    </plurals>
+
+    <plurals name="playlist_cab_remove_popup">
+        <item quantity="one">@string/number_song_playlist_remove_popup</item>
+        <item quantity="other">@string/number_songs_playlist_remove_popup</item>
+    </plurals>
+
+    <plurals name="multiple_cab_delete_popup">
+        <item quantity="one">@string/number_song_delete_popup</item>
+        <item quantity="other">@string/number_songs_delete_popup</item>
+    </plurals>
+
+
+
+
+</resources>

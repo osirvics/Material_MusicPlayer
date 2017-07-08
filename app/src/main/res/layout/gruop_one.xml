@@ -1,0 +1,178 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_margin="16dp"
+    android:fitsSystemWindows="false"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    app:cardUseCompatPadding="true"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="40dp"
+                android:src="@drawable/icon"
+                android:gravity="center_vertical"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/group_one_heading"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/group_one_heading"
+                android:maxLines="1" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content">
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/version_icon"
+                        android:layout_width="24dp"
+                        android:gravity="center_vertical"
+                        android:layout_height="24dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ic_about_info_outline_black_24dp" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/rel_title_layout"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="27dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/version_text_one"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:gravity="center_vertical"
+                        android:text="@string/group_one_version"
+                        android:maxLines="1" />
+
+                    <TextView
+                        android:id="@+id/version_text_two"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:scrollHorizontally="true"
+                        android:text=""
+                        android:visibility="visible"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--</android.support.v7.widget.CardView>-->
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/first"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/license_icon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ic_description_white_24dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rel_title_layobgggu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <!-- The height is set to half the height of the parent, which is 64 dip -->
+
+                    <TextView
+                        android:id="@+id/license_text"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:gravity="center_vertical"
+                        android:text="@string/group_one_licenses"
+                        android:maxLines="1" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

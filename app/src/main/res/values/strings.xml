@@ -1,0 +1,199 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <string name="app_name">Music Player</string>
+    <string name="title_mainactivity_name">Music Player</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_song_list">SongListActivity</string>
+    <string name="title_activity_artist_album_list">ArtistDetailsActivity</string>
+    <string name="all_songs">All Songs</string>
+    <string name="number_of_songs">12</string>
+    <string name="title_equalizer">Equalizer</string>
+
+    <!--Material CAB-->
+    <string name="x_selected">%1$s selected </string>
+    <string name="remove_songs_playlists">%1$s songs removed from playlist </string>
+
+    <!--Admob-->
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="mainactivity_ad_unit_id">ca-app-pub-7549886159702245/8837470012</string>
+    <string name="albumactivity_ad_unit_id">ca-app-pub-7549886159702245/1004648819</string>
+    <string name="artistactivity_ad_unit_id">ca-app-pub-7549886159702245/8388314810</string>
+    <string name="playlistactivity_ad_unit_id">ca-app-pub-7549886159702245/2341781210</string>
+    <string name="searchactivity_ad_unit_id">ca-app-pub-7549886159702245/3818514413</string>
+
+
+    <!--Navigtional Drawer Items-->
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="library">Library</string>
+    <string name="playlists">Playlists</string>
+    <string name="my_favorite">My favorite</string>
+    <string name="my_folder">Folders</string>
+    <string name="now_playing">Playlists</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="help_and_feedback">Send Feedback</string>
+    <string name="search">Search</string>
+    <string name="action_equalizer">Equalizer</string>
+    <string name="search_library">Search your library...</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+    <string name="search_hint">Search your musics</string>
+
+    <!--Songs Sorting-->
+    <string name="menu_sort_by">Sort by</string>
+    <string name="sort_order_entry_title">Title</string>
+    <string name="sort_order_entry_artist">Artist</string>
+    <string name="sort_order_entry_duration">Duration</string>
+    <string name="sort_order_entry_date_added">Date added</string>
+    <string name="sort_order_entry_album">Album</string>
+    <string name="sort_order_entry_year">Year</string>
+    <string name="sort_order_entry_track_number">Track Number</string>
+    <string name="sort_order_entry_track_list">Track list</string>
+    <string name="sort_order_entry_number_of_songs">Number of songs</string>
+    <string name="sort_order_entry_number_of_albums">Number of albums</string>
+    <string name="sort_order_entry_filename">Filename</string>
+
+    <!--Popup Song Menu-->
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="share_song">Share music</string>
+    <string name="song_details">Song Details</string>
+    <string name="set_as_ringtone">Set as ringtone</string>
+    <string name="delete">Delete music</string>
+    <string name="remove_item">Remove from list</string>
+    <string name="create_playlist">Create Playlist</string>
+    <string name="rename_list">Rename list</string>
+    <string name="delete_playlist">Delete list</string>
+    <string name="playlist_settings">Settings</string>
+    <string name="success">Song deleted</string>
+    <string name="playlist_success">Deleted</string>
+    <string name="share_music">Share music via</string>
+    <string name="details">Details</string>
+    <string name="open_artist">Open Artist</string>
+    <string name="delete_from_device">Delete from device</string>
+    <string name="text">Text</string>
+
+    <!--Song detials-->
+    <string name="share_song_file">Share Song File</string>
+    <string name="song_name"><![CDATA[<b>Song name:&nbsp;</b>]]></string>
+    <string name="album_name"><![CDATA[<b>Album name:&nbsp;</b>]]></string>
+    <string name="artist_name"><![CDATA[<b>Artist Name:&nbsp;</b>]]></string>
+    <string name="file_path"><![CDATA[<b>File Path:&nbsp;</b>]]></string>
+    <string name="file_name"><![CDATA[<b>File name:&nbsp;</b>]]></string>
+    <string name="file_size"><![CDATA[<b>File size:&nbsp;</b>]]></string>
+    <string name="bitrate"><![CDATA[<b>Bitrate:&nbsp;]]></string>
+    <string name="samplingrate"><![CDATA[<b>Sampling Rate:&nbsp;</b>]]></string>
+    <string name="format"><![CDATA[<b>Format:&nbsp;]]></string>
+
+    <!-- DataBase Name And Version -->
+    <string name="DataBaseName_Version">1</string>
+    <string name="DataBaseName">Resonance Player</string>
+    <string name="title_activity_favourite">My Favorites</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="primary_color">Primary Color</string>
+    <string name="primary_color_summary">Change the primary theme color</string>
+    <string name="accent_color">Accent Color</string>
+    <string name="accent_color_summary">Change the accent theme color</string>
+    <string name="personalisation">Personalisation</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="dark_theme_summary">Apply a dark theme throughout the app</string>
+    <string name="base_theme">General theme</string>
+    <string name="colored_status_bar">Colored Status Bar</string>
+    <string name="colored_status_bar_summary">Toggle status bar coloring</string>
+    <string name="colored_nav_bar">Colored Navigation Bar</string>
+    <string name="colored_nav_bar_summary">Toggle navigation bar coloring</string>
+    <string name="not_available_below_m">Not available below 6.0 Marshmallow.</string>
+    <string name="not_available_below_lollipop">Not available below 5.0 Lollipop.</string>
+    <string name="drawer_about">About</string>
+    <string name="drawer_home">Home</string>
+
+    <!--playlist-->
+    <string name="search_view_example">SearchView example…</string>
+    <string name="light_ui_modes">Light UI Modes</string>
+    <string name="system_ui_colors">System UI Colors</string>
+    <string name="ate_colors">ATE Colors</string>
+    <string name="playlist_last_added">Recently Added</string>
+    <string name="playlist_recently_played">Recently Played</string>
+    <string name="playlist_top_tracks">My Top Tracks</string>
+    <string name="number_song_add_playlist"><xliff:g example="1" id="number">%d</xliff:g> song added to playlist.</string>
+    <string name="number_songs_add_playlist"><xliff:g example="1" id="number">%d</xliff:g> songs added to playlist.</string>
+
+
+
+    <!--Multiple Select Related Strings-->
+    <string name="number_song_removed"><xliff:g example="1" id="number">%d</xliff:g> song removed from playlist.</string>
+    <string name="number_songs_removed"><xliff:g example="1" id="number">%d</xliff:g> songs removed from playlist.</string>
+    <string name="number_song_playlist_remove_popup"> Do you want to remove %1$d song from playlist?</string>
+    <string name="number_songs_playlist_remove_popup">Do you want to remove %1$d songs from playlist?</string>
+    <string name="number_song_delete_popup"> Delete %1$d song from device?</string>
+    <string name="number_songs_delete_popup">Delete %1$d songs from device?</string>
+    <!--<string name="number_songs_playlist_remove_popup"><xliff:g example="1" id="number">%d</xliff:g> Do you want to remove %1$d songs from playlist?</string>-->
+
+
+    <!--Folder Fragment-->
+    <string name="rootError">Can\'t go to parent directory</string>
+    <string name="dirError">Directory not readable</string>
+    <string name="errorSong">Can\'t play selected song</string>
+    <string name="errorSongMessage">An error occurred while trying to open the file.</string>
+
+    <!--About Page-->
+    <string name="join_community">Join Our Google Plus Community </string>
+    <string name="community">Do you have questions, design suggestions to improve this app or need help? click here to join others now!  </string>
+    <string name="group_one_heading">Music Player</string>
+    <string name="group_one_version">Version</string>
+    <string name="group_one_licenses">Licenses</string>
+    <string name="group_two_heading">Support Development</string>
+    <string name="group_two_report_bug">Report bugs</string>
+    <string name="bugs">This app is still in beta, report bugs here</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="ads">Music Player Pro</string>
+    <string name="share_app">Share this app</string>
+    <string name="rate_app">Rate Music Player</string>
+    <string name="rate" translatable="false">Drop a positive review on Google Play Store</string>
+    <string name="developer">About Developer</string>
+    <string name="name">Edu Victor</string>
+    <string name="location">Port Harcourt, Nigeria</string>
+    <string name="connect">Connect on LinkedIn</string>
+    <string name="send_to">Share app</string>
+    <string name="send_via">Report via</string>
+
+    <string name="no_songs_playlist">Empty playlist</string>
+    <string name="no_songs">Empty</string>
+    <string name="no_songs_on_device">No song found on device.</string>
+    <string name="title_activity_folder">FolderActivity</string>
+
+
+    <!--  Rate app-->
+   <!--// <string name="new_rate_dialog_title">Rate Me!</string>-->
+    <string name="new_rate_dialog_never">No, Thanks</string>
+    <string name="new_rate_dialog_later">Later</string>
+    <string name="new_rate_dialog_ok">Rate Now</string>
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+
+    <!--Viewpager-->
+    <string name="list_of_songs">Songs</string>
+    <string name="list_of_albums">Albums</string>
+    <string name="list_of_artists">Artist</string>
+    <string name="list_of_playlists">Playlist</string>
+    <string name="action_shuffle_all">SHUFFLE ALL</string>
+
+    <!--do not translate these strings-->
+    <string name="combine_two_strings" translatable="false">%1$s | %2$s</string>
+    <string name="title_activity_playlists">Playlists</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_playlist_details">PlaylistDetailsActivity</string>
+    <string name="facebook_app_id">324632961227405</string>
+
+
+
+
+
+</resources>

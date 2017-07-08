@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:paddingTop="14dp"
+    android:paddingBottom="14dp"
+    android:background="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/album_art"
+            android:id="@+id/avatar"
+            android:scaleType="centerCrop"
+           android:layout_centerVertical="true"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+          android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/avatar"
+            android:layout_toStartOf="@+id/overflow_menu"
+            android:layout_marginEnd="16dp"
+            android:layout_toRightOf="@+id/avatar"
+            android:layout_toLeftOf="@+id/overflow_menu"
+            android:layout_marginRight="16dp">
+
+
+            <TextView
+                android:id="@+id/song_title1"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:ellipsize="end"
+                android:maxLines="1" />
+            <!--style="@style/TextAppearance.AppCompat.Body1"-->
+
+            <TextView
+                android:id="@+id/song_artist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="?android:textColorSecondary"
+                android:maxLines="1" />
+
+
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:id="@+id/overflow_menu"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginEnd="2dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:scaleType="center"
+            android:layout_centerVertical="true"
+            android:src="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="0dp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

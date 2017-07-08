@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackgroundBorderless">
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/redraw"-->
+        <!--android:orientation="vertical">-->
+
+
+<com.audio.effiong.musicplayer.slidinguppanelhelper.SlidingUpPanelLayout
+        xmlns:sothree="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fitsSystemWindows="false"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        sothree:umanoDragView="@+id/dragView"
+        sothree:umanoOverlay="false"
+        sothree:umanoPanelHeight="?attr/actionBarSize"
+        sothree:umanoParalaxOffset="0dp"
+        sothree:umanoShadowHeight="5dp">
+
+        <!-- MAIN CONTENT -->
+        <include
+            android:id="@+id/include_sliding_panelchildone"
+            layout="@layout/activity_album_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <!-- SLIDING LAYOUT -->
+        <FrameLayout
+            android:id="@+id/panel2_holder"
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--<include
+            android:id="@+id/include_sliding_panel_childtwo"
+            layout="@layout/group_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />-->
+    </com.audio.effiong.musicplayer.slidinguppanelhelper.SlidingUpPanelLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/redraw"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/albumactivity_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+</LinearLayout>
+

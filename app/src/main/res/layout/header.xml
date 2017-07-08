@@ -1,0 +1,126 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="?attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:focusable="true">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="14dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:id="@+id/content"
+    android:orientation="horizontal"
+
+    >
+
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/avatar2"
+            android:src="@drawable/ic_shuffle_white_24dp"
+            android:layout_width="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+         />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp">
+
+
+        <TextView
+            android:id="@+id/shuffle"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="80dp"
+            android:layout_height="match_parent"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            android:layout_marginRight="80dp"
+            android:maxLines="1" />
+
+
+
+
+
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+
+            <!--android:weightSum="2">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/song_artist"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle"-->
+                <!--android:textSize="14sp"-->
+                <!--android:singleLine="true"-->
+                <!--android:layout_weight="1.92"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="New Text"-->
+                <!--android:id="@+id/songduration"-->
+                <!--style="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:textSize="12sp"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_height="wrap_content">-->
+
+
+<!--</LinearLayout>-->
+
+
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/inset_list_divider" />
+</RelativeLayout>
+
+
+
+
+
+
+
+

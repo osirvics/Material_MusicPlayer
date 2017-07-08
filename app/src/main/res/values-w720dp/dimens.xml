@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="gallery_columns">2</integer>
+    <integer name="album_columns">3</integer>
+    <dimen name="avater_dimen">75dp</dimen>
+</resources>

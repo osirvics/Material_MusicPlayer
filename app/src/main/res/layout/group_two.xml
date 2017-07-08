@@ -1,0 +1,328 @@
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_about"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:clickable="true"
+app:cardUseCompatPadding="true"
+android:focusable="true"
+android:layout_margin="16dp"
+android:foreground="?android:attr/selectableItemBackground"
+android:orientation="vertical"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/group_two_heading"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="?android:textColorSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="@string/group_two_heading"
+        android:paddingLeft="16dp"
+        android:gravity="center_vertical"
+        android:maxLines="1" />
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/rate_app_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/ic_about_grade_black_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rel_title_layobgggu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <!-- The height is set to half the height of the parent, which is 64 dip -->
+
+                <TextView
+                    android:id="@+id/rate_app_text"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/rate_app"
+
+                    />
+
+                <TextView
+                    android:id="@+id/rate_app_text_two"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center_vertical"
+                    android:scrollHorizontally="true"
+                    android:text="@string/rate"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/join_community_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/ic_about_group_black_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rel_title_layout"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="27dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/join_community_text_one"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/join_community"
+                    android:maxLines="3" />
+
+                <TextView
+                    android:id="@+id/join_community_text_two"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:scrollHorizontally="true"
+                    android:text="@string/community"
+
+                    android:visibility="visible" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/layout_bug"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/report_bugs_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/ic_about_bug_report_black_48px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/relnh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/report_bugs_text"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:gravity="center_vertical"
+                    android:text="@string/group_two_report_bug"
+
+                    android:maxLines="1" />
+                <TextView
+                    android:id="@+id/report_bugs_text_two"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bugs"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:scrollHorizontally="true"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/share"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/share_app_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/ic_about_share_black_24dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <!-- The height is set to half the height of the parent, which is 64 dip -->
+
+                <TextView
+                    android:id="@+id/share_app_text"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:gravity="center_vertical"
+                    android:text="@string/share_app"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ads"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content">
+
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/remove_ads_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/ic_about_attach_money_black_24dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/remove_ads_text_one"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/remove_ads"
+                    android:maxLines="1" />
+
+                <TextView
+                    android:id="@+id/remove_ads_text_two"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center_vertical"
+                    android:scrollHorizontally="true"
+                    android:text="@string/ads"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

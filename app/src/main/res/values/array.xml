@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- All of the possible tile background colors -->
+    <array name="letter_tile_colors">
+        <item>#304FFE</item>
+        <item>#263238</item>
+        <item>#e91e63</item>
+        <item>#3f51b5</item>
+        <item>#2E7D32</item>
+        <item>#616161</item>
+        <item>#2093cd</item>
+
+    </array>
+
+    <!--<item>#ad62a7</item>-->
+</resources>
