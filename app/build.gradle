@@ -9,17 +9,17 @@ ext {
 android {
     signingConfigs {
         config {
-            keyAlias 'kedvic'
-            keyPassword 'chemistry12'
+            keyAlias 'generateYours'
+            keyPassword generateYours'
             storeFile file('C:/Users/Victor/Documents/releaseKey.jks')
-            storePassword 'aa25da90'
+            storePassword 'generateYours'
             v2SigningEnabled false
         }
         configNew {
-            keyAlias 'kedvic'
-            keyPassword 'aa25da90'
+            keyAlias 'generateYours'
+            keyPassword 'generateYours'
             storeFile file('C:/Users/Victor/Documents/releaseKey.jks')
-            storePassword 'chemistry12'
+            storePassword 'generateYours'
         }
     }
 
