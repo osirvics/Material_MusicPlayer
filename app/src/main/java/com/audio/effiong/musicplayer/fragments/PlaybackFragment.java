@@ -120,7 +120,7 @@ public class PlaybackFragment extends Fragment {
     private ProgressBar mProgress;
     String ateKey;
     int accentColor,width,height,colorTop,colorPrimary;
-    LinearLayout backgroundGroup;
+    LinearLayout backgroundGroup, mPlaylistContainer;
     int size = 0;
     boolean useDefault = false;
     LinearLayout seekBackground;
@@ -361,6 +361,7 @@ public class PlaybackFragment extends Fragment {
         }
         recyclerView = (RecyclerView)view.findViewById(R.id.recycler_view);
         backgroundGroup = (LinearLayout) view.findViewById(R.id.main_background);
+        mPlaylistContainer = (LinearLayout) view.findViewById(R.id.playlist_container);
         seekBackground = (LinearLayout) view.findViewById(R.id.control_seek_bar_holder);
         txt_playesongname = (TextView) view.findViewById(R.id.txt_playesongname);
         txt_playesongname_slidetoptwo = (TextView) view.findViewById(R.id.txt_playesongname_slidetoptwo);
@@ -894,7 +895,15 @@ public class PlaybackFragment extends Fragment {
 
                                 final int[] colors = Helpers.getAvailableColor(getActivity(),palette);
                                 colorTop = colors[0];
+                               // Palette.Swatch swatch = palette.getMutedSwatch();
+
+                               /* if (swatch != null) {
+                                    int textColor = Helpers.getBlackWhiteColor(swatch.getTitleTextColor());
+                                    holder.albumName.setTextColor(textColor);
+                                    holder.artistName.setTextColor(textColor);
+                                }*/
                                 animateColorChangeView(backgroundGroup,colors[0]);
+                                animateColorChangeView(mPlaylistContainer,colors[0]);
                                 animateColorChangeView(seekBackground,getDarkColor(colors[0]));
                                 if(isExpand){
                                     if(Helpers.isLollipop())
@@ -915,6 +924,7 @@ public class PlaybackFragment extends Fragment {
 
             // animateColorChangeViewR(window,getDarkColor(colorLight));
             animateColorChangeView(backgroundGroup,colorLight);
+            animateColorChangeView(mPlaylistContainer,colorLight);
             animateColorChangeView(seekBackground,getDarkColor(colorLight));
         }
 
