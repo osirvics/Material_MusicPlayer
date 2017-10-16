@@ -34,7 +34,7 @@ android {
         applicationId "com.audio.effiong.musicplayer"
         minSdkVersion 16
         targetSdkVersion TARGET_SDK
-        versionCode 15
+        versionCode 16
         versionName "0.0.5b"
         vectorDrawables.useSupportLibrary = true
        // resConfigs "en","en_US"
@@ -55,7 +55,7 @@ android {
             signingConfig signingConfigs.configNew
         }
     }
-    buildToolsVersion '25.0.0'
+    buildToolsVersion '26.0.2'
 }
 
 
